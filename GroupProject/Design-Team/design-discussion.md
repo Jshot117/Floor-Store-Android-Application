@@ -1,7 +1,7 @@
 ### Idividual Designs 
 
 ### Design 1(Jonn): 
-
+![](../Resources/designJonn.png)
 Pro:
 The Employee class inherits the User class.
 Store Class holds the necessary attributes 
@@ -14,7 +14,7 @@ Store attributes don’t have their respective data types shown
 
 
 ### Design2(Daniel):
-
+![](../Resources/design-josh.png)
 Pro:
 Has a database that provides data and takes in data
 
@@ -26,7 +26,7 @@ Does not show the cardinality between the classes, ex(Employee class to Store Cl
 
 
 ### Design 3(Dimi):
-
+![](../Resources/design-dimitry.png)
 Pro:
 Have all operations that can get and set attributes
 
@@ -37,7 +37,7 @@ Doesn’t have Database class
 
 
 ### Design4 (gangjun)
-
+![](../Resources/Gangjun_Design.png)
 Pro:
 Has all the correct floor categories
 All the attributes have a data type associated to them
