@@ -14,9 +14,7 @@ Store attributes don’t have their respective data types shown
 
 
 ### Design2(Daniel):
-<<<<<<< HEAD
-![](../Resources/design-josh.png)
-=======
+
 ![](../Resources/Daniel_Design.png)
 
 >>>>>>> bafabaedc84b3b2a9b978e4f6403091935c7cec7
