@@ -14,4 +14,4 @@ The product class, a parent class to all floor categories will have the attribut
 
 The materials they are made of are attributes of the classes wood, tile, and stone along with MaterialID to identify their material.
 
-There are only 3 types for Laminate and Vinyl. So I used number to represent the type where used TypeId to return the number represent the type of the floor.
+There are only 3 types for Laminate and Vinyl. So I used a number to represent the type where I used TypeId to return the number representing the type of the floor.
