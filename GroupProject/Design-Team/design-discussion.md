@@ -37,7 +37,8 @@ Doesn’t have Database class
 
 
 ### Design4 (gangjun)
-https://github.com/qc-se-spring23/370Spring23Sec34Team1/blob/main/GroupProject/Design-Individual/jiga5633/Gangjunjiang-Design.pdf
+[[https://github.com/qc-se-spring23/370Spring23Sec34Team1/blob/main/GroupProject/Design-Individual/jiga5633/Gangjunjiang-Design.pdf]]
+
 Pro:
 Has all the correct floor categories
 All the attributes have a data type associated to them
