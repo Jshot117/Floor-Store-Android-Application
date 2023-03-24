@@ -53,7 +53,7 @@ Does not have cardinality between classes
 
 
 ### Design5(Josh):
-![](../Resources/design-josh.png)
+![](../Resources/joshua_design.png)
 
 Pro:
 The relation between classes are clear
