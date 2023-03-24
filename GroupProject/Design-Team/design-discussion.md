@@ -37,7 +37,8 @@ Doesn’t have Database class
 
 
 ### Design4 (gangjun)
-![](..Resources/Gangjun_Design.png)
+![](../Resources/Gangjun_Design.png)
+
 Pro:
 Has all the correct floor categories
 All the attributes have a data type associated to them
