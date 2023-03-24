@@ -14,6 +14,10 @@ Store attributes don’t have their respective data types shown
 
 
 ### Design2(Daniel):
+<<<<<<< HEAD
+=======
+
+>>>>>>> d62f1fe90abe1af95c848518e049243bb7caa565
 ![](../Resources/Daniel_Design.png)
 Pro:
 Has a database that provides data and takes in data
