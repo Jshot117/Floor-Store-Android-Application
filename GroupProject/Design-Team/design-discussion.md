@@ -17,7 +17,7 @@ Store attributes don’t have their respective data types shown
 
 ![](../Resources/Daniel_Design.png)
 
->>>>>>> bafabaedc84b3b2a9b978e4f6403091935c7cec7
+
 Pro:
 Has a database that provides data and takes in data
 
@@ -41,10 +41,7 @@ Doesn’t have Database class
 
 ### Design4 (gangjun)
 ![](../Resources/Gangjun_Design.png)
-<<<<<<< HEAD
-=======
 
->>>>>>> bafabaedc84b3b2a9b978e4f6403091935c7cec7
 Pro:
 Has all the correct floor categories
 All the attributes have a data type associated to them
