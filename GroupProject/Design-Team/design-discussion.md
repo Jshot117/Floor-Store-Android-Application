@@ -1,7 +1,7 @@
 ### Idividual Designs 
 
 ### Design 1(Jonn): 
-
+![](../Resources/designJonn.png)
 Pro:
 The Employee class inherits the User class.
 Store Class holds the necessary attributes 
@@ -14,6 +14,7 @@ Store attributes don’t have their respective data types shown
 
 
 ### Design2(Daniel):
+![](../Resources/Daniel_Design.png)
 
 Pro:
 Has a database that provides data and takes in data
