@@ -14,16 +14,7 @@ Store attributes don’t have their respective data types shown
 
 
 ### Design2(Daniel):
-<<<<<<< HEAD
-=======
-
->>>>>>> d62f1fe90abe1af95c848518e049243bb7caa565
 ![](../Resources/Daniel_Design.png)
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 8f20a4f99aeedee4262cffdcd7215272f44a2946
 Pro:
 Has a database that provides data and takes in data
 
@@ -47,10 +38,6 @@ Doesn’t have Database class
 
 ### Design4 (gangjun)
 ![](../Resources/Gangjun_Design.png)
-<<<<<<< HEAD
-=======
-
->>>>>>> 8f20a4f99aeedee4262cffdcd7215272f44a2946
 Pro:
 Has all the correct floor categories
 All the attributes have a data type associated to them
