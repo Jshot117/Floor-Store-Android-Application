@@ -1,7 +1,6 @@
-a. Onesection for each of the individual designs, called “Design 1”, “Design 2”, and so on, shows that design (as an embedded figure) and discusses its main pros and cons as they emerged during the team discussion. 
+### Idividual Designs 
 
-Design 1(Jonn): 
-
+### Design 1(Jonn): 
 
 Pro:
 The Employee class inherits the User class.
@@ -14,7 +13,7 @@ Store attributes don’t have their respective data types shown
 
 
 
-Design2(Daniel):
+### Design2(Daniel):
 
 Pro:
 Has a database that provides data and takes in data
@@ -26,15 +25,7 @@ Does not show the cardinality between the classes, ex(Employee class to Store Cl
 
 
 
-
-
-
-
-
-
-
-
-Design 3(Dimi):
+### Design 3(Dimi):
 
 Pro:
 Have all operations that can get and set attributes
@@ -45,11 +36,7 @@ In the Floor Class it should include Get() and Set() operations for the category
 Doesn’t have Database class
 
 
-
-
-
-
-Design4 (gangjun)
+### Design4 (gangjun)
 
 Pro:
 Has all the correct floor categories
@@ -65,15 +52,8 @@ Does not have cardinality between classes
 
 
 
-
-
-
-
-
-
-
-Design5(Josh):
-
+### Design5(Josh):
+![](../Resources/design-josh.png)
 
 Pro:
 The relation between classes are clear
@@ -84,19 +64,11 @@ Operations for all classes don't have a return value
 Store Class needs to have a relationship to the floor classes.
 
 
-
-
-
-
-
-
-
-
 b. Onesection for the team design, called “Team Design”, that shows the team design (as an embedded figure), discusses the main commonalities and differences between this design and the individual ones, and concisely justifies the main design decisions.
 
 
-Team design:
-
+### Team design:
+![](../Resources/team-design.png)
 Commonalities between individual designs:
 One main commonalities between the team design and most of the individual designs are that most of the individual designs follow a store hierarchy like our team design. 
 Our UML diagrams also all included Employee classes.
@@ -105,9 +77,6 @@ Differences between Team Design and individual designs:
 Our Team design included the cardinality relationship between most classes while most of the other designs included some cardinality relationships or none.
 The Floor Class had the respective get() and set() operations for the Floor attributes
 The Team Design included positives and negatives to the operations and attributes to indicate private or public domain.
-
-
-
 
 
 c. Onefinal section, called “Summary”, that concisely summarizes the lessons learnt in the process of discussing the designs, in terms of design, team work, and any other aspect that the team members consider relevant.
