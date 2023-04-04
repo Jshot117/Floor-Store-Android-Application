@@ -40,8 +40,8 @@ This stage marks the process of transferring the completed version of the system
 
 |Name| Role(s)| Role Description|
 |:---------|:---------|:---------|
-|GANGJUNJIANG|Project Manager, Testing|Ensuring the team stays on target to complete the project in a reasonable time frame and to a certain standard. Testing the system to ensure it meets all functional and non-functional requirements. Creating documentation to explain how the system works.|
-|HitMonkey|UI, Documantation|Creating and implementing the UI and UX.|
-|Dimitry|Software developer|Implementing the design of system to meet the requirements|
-|Jonn|Software developer|Implementing the functionality of the system.|
-|Daniel Liu|Database Manager|Oversees any and all databases and organizes to best ability.|
+|GANGJUNJIANG|Project Manager, Testing| leader of the team, responsible for managing the project and ensuring that the team completes the work on time. Also handles the testing of the system to verify it meets all functional and non-functional requirements.|
+|HitMonkey|UI, Documantation|Designing and implementing the User interface (UI) and user experience (UX). Also creates documentation to explain how the system works to help users understand the functionality of the product.|
+|Dimitry|Software developer|Responsible for implementing the design of the system in line with the requirements. Testing may also be involved|
+|Jonn|Software developer|Responsible for implementing the design of the system in line with the requirements. testing may also be involved|
+|Daniel Liu|Database Manager|Oversees all the databases related to the system. Responsible for setting up the database and organizing data. Testing of the DB may also be involved|
