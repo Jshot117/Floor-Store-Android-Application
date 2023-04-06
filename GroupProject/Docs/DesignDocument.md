@@ -11,3 +11,5 @@ The application will be run on Android exclusive. There will not be an IOS, tabl
 
 ### 1.3 System Environment
 The software will be developed for Android phone devices exclusively (tablets not included). The system must be able to interact with Android devices capable of receiving input through touch.
+
+![](../Resources/ComponentDiagram.png)
