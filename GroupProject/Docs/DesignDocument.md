@@ -39,7 +39,7 @@ Diagram:
 ### 3.2 Other Diagram
 
 Diagram:
-
+![](../Resources/sequence_diagram.png)
 
 ### 4 User Interface Design
 ![login Page](../Resources/LoginPageUI.png)
