@@ -10,7 +10,7 @@ Most of the app component should be ready except final database installation and
 
 ## Interaction component:
 - User log in
-- Store
+- Store selection
 - Edit floor info (Employees only)
 - Floor selection
 - Search
