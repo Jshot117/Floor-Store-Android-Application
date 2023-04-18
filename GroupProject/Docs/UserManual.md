@@ -6,7 +6,7 @@ Welcome to the Flooring Icon Manager(FIM) . FIM is a tool for managing floor inv
 
 # Alpha vesion:
 
-Most of the app component should be ready except final database installation. This version is for companies who choose to use FIM as their management system and for emplyee to get familiar with the apprication.
+Most of the app component should be ready except final database installation and add to cart function. This version is for companies who choose to use FIM as their management system and for emplyee to get familiar with the apprication.
 
 ## Interaction component:
 - User log in
@@ -14,4 +14,4 @@ Most of the app component should be ready except final database installation. Th
 - Edit floor info (Employees only)
 - Floor selection
 - Search
-- Add to cart & check out
+
