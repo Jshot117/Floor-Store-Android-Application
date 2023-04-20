@@ -15,6 +15,7 @@ public class StoreSelection extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store_selection);
         List<String> storeNamesList = new ArrayList<>();
+        storeNamesList.add("All stores");
         storeNamesList.add("Store 1");
         storeNamesList.add("Store 2");
         storeNamesList.add("Store 3");
