@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">FIM</string>
+
+    <string-array name="store_array">
+        <item>Store 1</item>
+        <item>Store 2</item>
+        <item>Store 3</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>Tile</item>
+        <item>Stone</item>
+        <item>Wood</item>
+        <item>Laminate</item>
+        <item>Vinyl</item>
+    </string-array>
+
+    <string-array name="tile_type_array">
+        <item>Mosaic</item>
+        <item>Ceramic</item>
+        <item>Resin</item>
+    </string-array>
+
+    <string-array name="stone_type_array">
+        <item>Marble</item>
+        <item>Limestone</item>
+        <item>Granite</item>
+    </string-array>
+
+    <string-array name="wood_type_array">
+        <item>Pine</item>
+        <item>Engineered</item>
+        <item>Cork</item>
+    </string-array>
+
+    <string-array name="laminate_type_array">
+        <item>Regular</item>
+        <item>Water Resistant</item>
+    </string-array>
+
+    <string-array name="vinyl_type_array">
+        <item>Water Resistant</item>
+        <item>Water Proof</item>
+    </string-array>
+
+    <string-array name="wood_species_array">
+        <item>Mahogany</item>
+        <item>Teak</item>
+        <item>Maple</item>
+    </string-array>
+
 </resources>
