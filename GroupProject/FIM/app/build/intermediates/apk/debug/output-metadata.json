@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.flooringiconmanager",
+  "applicationId": "edu.qc.seclass.fim",
   "variantName": "debug",
   "elements": [
     {

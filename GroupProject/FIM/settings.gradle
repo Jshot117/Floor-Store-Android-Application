@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Flooring Icon Manager"
+rootProject.name = "FIM"
 include ':app'

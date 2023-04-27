@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.flooringiconmanager.app-mergeDebugResources-7:/values-v16/values-v16.xml",
+            "outputFile": "edu.qc.seclass.fim.app-mergeDebugResources-27:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\junio\\.gradle\\caches\\transforms-3\\0b22a6b07b3e498281e2fdb9d93c9c6b\\transformed\\support-compat-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/dimitry/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\junio\\.gradle\\caches\\transforms-3\\ea5271aff2e9b4fa4c0a0cdbc7dd64f1\\transformed\\appcompat-v7-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/dimitry/.gradle/caches/transforms-3/44fc53ad3ef1477fcc7b5dbdbf1cb4c0/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
