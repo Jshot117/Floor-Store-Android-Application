@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "edu.qc.seclass.fim.app-mergeDebugResources-27:/values-eu/values-eu.xml",
+            "outputFile": "edu.qc.seclass.fim.app-mergeDebugResources-30:/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/Users/dimitry/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/res/values-eu/values-eu.xml",

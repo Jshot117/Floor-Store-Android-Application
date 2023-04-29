@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">FIM</string>
 
+    <string name="store_name_placeholder">Store Name</string>
+    <string name="floor_icon_content_description">Floor Description</string>
+
     <string-array name="store_array">
         <item>Store 1</item>
         <item>Store 2</item>

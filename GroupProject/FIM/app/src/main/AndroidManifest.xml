@@ -15,9 +15,6 @@
             android:name=".AddFloorActivity"
             android:exported="false" />
         <activity
-            android:name=".StoreSelectionActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -26,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".StoreListActivity" />
+        <activity android:name=".StoreActivity" />
     </application>
 
 </manifest>

@@ -74,6 +74,14 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array category_array
+array laminate_type_array
+array stone_type_array
+array store_array
+array tile_type_array
+array vinyl_type_array
+array wood_species_array
+array wood_type_array
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2716,6 +2724,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_back_black_24
+drawable ic_arrow_right
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2874,6 +2883,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addButton
 id alertTitle
 id aligned
 id all
@@ -2901,12 +2911,15 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
+id brandInput
+id browse_stores_button
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancelButton
 id cancel_button
 id carryVelocity
+id category_text
 id center
 id centerCrop
 id centerInside
@@ -2925,6 +2938,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id colorInput
 id compress
 id confirm_button
 id constraint
@@ -2977,8 +2991,8 @@ id east
 id edit_query
 id elastic
 id embed
-id employee
 id employeeId
+id employee_login_button
 id end
 id endToStart
 id enterAlways
@@ -2999,6 +3013,10 @@ id fitXY
 id fixed
 id flip
 id floating
+id floor_description
+id floor_icon
+id floor_list
+id floor_name
 id forever
 id fragment_container_view_tag
 id frost
@@ -3043,6 +3061,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loginButton
 id m3_side_sheet
 id marquee
 id masked
@@ -3103,6 +3122,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameInput
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3133,6 +3153,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordEditText
 id password_toggle
 id path
 id pathRelative
@@ -3142,6 +3163,7 @@ id pin
 id position
 id postLayout
 id pressed
+id priceInput
 id progress_circular
 id progress_horizontal
 id radio
@@ -3198,6 +3220,7 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id sizeInput
 id skipCollapsed
 id skipped
 id slide
@@ -3208,7 +3231,11 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
-id spinner
+id species_text
+id spinner_category
+id spinner_species
+id spinner_store
+id spinner_type
 id spline
 id split_action_bar
 id spread
@@ -3226,6 +3253,10 @@ id startVertical
 id staticLayout
 id staticPostLayout
 id stop
+id store_arrow
+id store_list
+id store_name
+id store_text
 id stretch
 id submenuarrow
 id submit_area
@@ -3251,7 +3282,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3277,12 +3307,13 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id type_text
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
-id user
+id userIdEditText
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3407,8 +3438,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_floor
+layout activity_login
 layout activity_main
-layout activity_store_selection
+layout activity_store
+layout activity_store_list
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3425,6 +3459,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout floor_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3485,6 +3520,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout store_list_item
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -3534,6 +3570,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string floor_icon_content_description
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -3644,6 +3681,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string store_name_placeholder
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

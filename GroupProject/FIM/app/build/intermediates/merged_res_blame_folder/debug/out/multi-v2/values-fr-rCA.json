@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "edu.qc.seclass.fim.app-mergeDebugResources-27:/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "edu.qc.seclass.fim.app-mergeDebugResources-30:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/Users/dimitry/.gradle/caches/transforms-3/1d6008e40b174b18ef5fa9ea4cd35014/transformed/material-1.8.0/res/values-fr-rCA/values-fr-rCA.xml",

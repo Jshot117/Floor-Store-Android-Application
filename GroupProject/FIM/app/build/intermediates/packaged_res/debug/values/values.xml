@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="category_array">
+        <item>Tile</item>
+        <item>Stone</item>
+        <item>Wood</item>
+        <item>Laminate</item>
+        <item>Vinyl</item>
+    </string-array>
+    <string-array name="laminate_type_array">
+        <item>Regular</item>
+        <item>Water Resistant</item>
+    </string-array>
+    <string-array name="stone_type_array">
+        <item>Marble</item>
+        <item>Limestone</item>
+        <item>Granite</item>
+    </string-array>
+    <string-array name="store_array">
+        <item>Store 1</item>
+        <item>Store 2</item>
+        <item>Store 3</item>
+    </string-array>
+    <string-array name="tile_type_array">
+        <item>Mosaic</item>
+        <item>Ceramic</item>
+        <item>Resin</item>
+    </string-array>
+    <string-array name="vinyl_type_array">
+        <item>Water Resistant</item>
+        <item>Water Proof</item>
+    </string-array>
+    <string-array name="wood_species_array">
+        <item>Mahogany</item>
+        <item>Teak</item>
+        <item>Maple</item>
+    </string-array>
+    <string-array name="wood_type_array">
+        <item>Pine</item>
+        <item>Engineered</item>
+        <item>Cork</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -8,6 +48,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">FIM</string>
+    <string name="floor_icon_content_description">Floor Description</string>
+    <string name="store_name_placeholder">Store Name</string>
     <style name="Theme.FIM" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

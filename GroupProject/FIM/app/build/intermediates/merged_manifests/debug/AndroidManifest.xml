@@ -27,7 +27,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.FIM" >
         <activity
-            android:name="edu.qc.seclass.fim.StoreSelectionActivity"
+            android:name="edu.qc.seclass.fim.AddFloorActivity"
             android:exported="false" />
         <activity
             android:name="edu.qc.seclass.fim.MainActivity"
@@ -38,6 +38,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="edu.qc.seclass.fim.StoreListActivity" />
+        <activity android:name="edu.qc.seclass.fim.StoreActivity" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
