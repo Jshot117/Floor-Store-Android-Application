@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        db = Room.databaseBuilder(getApplicationContext(), FimDatabase.class, "floor-database").allowMainThreadQueries().build();
+        db = Room.databaseBuilder(getApplicationContext(), FimDatabase.class, "floor-database").build();
+        new PopulateDatabaseTask().execute();
+
         browseStoreButton = findViewById(R.id.browse_stores_button);
         employeeLoginButton = findViewById(R.id.employee_login_button);
         //employeeId = findViewById(R.id.employeeId);
@@ -32,11 +35,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-        employeeLoginButton.setOnClickListener(new View.OnClickListener(){
+        employeeLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 LoginEmployee();
             }
         });
@@ -67,15 +68,22 @@ public class MainActivity extends AppCompatActivity {
 
             // Insert floors for store 3
             Floor store3Floor1 = new Floor(5, 3, "Floor 1", "Bamboo", "Solid", "Natural", "300", "Brand5", 8.99, "Bamboo", "Natural", true);
-            Floor store3Floor2 = new Floor(6, 3, "Floor 2", "Cork", "Plank", "Cork Oak", "180", "Brand6", 6.99, "Cork", "Cork Oak", false);
+            Floor store3Floor2 = new Floor(6, 3, "Floor 2", "Cork", "Plank", "Cork Oak", "180", "Brand6",
+                    6.99, "Cork", "Cork Oak", false);
             db.floorDao().insert(store3Floor1);
             db.floorDao().insert(store3Floor2);
         }
     }
 
-
-
-    private void LoginEmployee(){
+    private void LoginEmployee() {
         String id = employeeId.getText().toString();
+    }
+
+    private class PopulateDatabaseTask extends AsyncTask<Void, Void, Void> {
+        @Override
+        protected Void doInBackground(Void... voids) {
+            populateDatabaseIfEmpty();
+            return null;
+        }
     }
 }
